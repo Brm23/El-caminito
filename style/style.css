@@ -1,0 +1,87 @@
+/* #Globals html
+================================================= */
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 16px;
+	font-size: 1.6rem;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+/* #header
+================================================= */
+
+header {
+	background: url(../img/banner.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+
+}
+
+/* #Classes
+================================================= */
+
+.title {
+	font-family: Arial, serif;
+	color: #333;
+}
+
+.color-blanco {
+	color: #fff;
+}
+
+.logo {
+	width: 10rem;
+	position: fixed;
+}
+
+nav {
+	position: fixed;
+	background-color: #8D8D8E;
+	height: 8%;
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin-left: 2rem;
+	padding: 0;
+	max-width: 100%;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+.button {
+  background: #659FCF;
+  border-radius: 25px;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 2;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.cuadrado {
+	background: #5398D2;
+	border-radius: 0px
+}
